@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 30%;
+  background: rgb(196, 196, 196);  
+  /* font-family: "DejaVu" Serif; */
+}
+
+.container {
+  display: flex;
+  /* border: solid red 3px; */
+  margin-top: 10rem;
+  /* color: #000000; */
+  text-decoration: none;
+  
+}
+
+#panel {
+  /* border: solid blueviolet 3px; */
+  display: block;
+  width: 33.33%;
+  padding: px;
+  text-align: center;
+  /* color: #000000; */
+  text-decoration: none;
+}
+
+#smileyImage {
+  width: 70%;
+  height: auto;
+  /* border: solid 3px salmon; */
+}
+
+.smileyImageSticky {
+  width: 23%;
+  height: auto;
+  /* border: solid 3px purple; */
+  position: fixed;
+  top: auto;
+  display: block;
+  padding: 5px;
+  margin-left: 30px;
+}
+
+
+#subHead {
+  font-size: 200%;
+  /* color: #000000; */
+  width: 33.33%;
+  margin-left: 33.33%;
+  /* border: solid 3px turquoise; */
+  color: #000000;
+  text-decoration: none;
+}
+
+#subHeadSticky {
+  font-size: 200%;
+  /* color: #000000; */
+  /* width: 33.33%; */
+  margin-left: 33.33%;
+  /* margin-top: 10%; */
+  /* border: solid 3px turquoise; */
+  /* color: #000000; */
+  /* text-decoration: none; */
+
+}
+
+#entersite {
+  font-size: 100px;
+  color: #000000;
+  width: auto;
+  margin-left: auto;
+  /* border: solid 3px turquoise; */
+
+}
+.scrollPage {
+  display: flex;
+  /* border: solid red 3px; */
+  /* margin-top: 50rem; */
+}
+
+#scrollView {
+  /* font-size: 24px; */
+  color: #000000;
+  /* width: 40%; */
+  /* margin-left: 30%; */
+  /* border: solid 3px turquoise; */
+}
+
+#hello {
+  text-align: center;
+  font-size: 150%;
+
+  
+}
+
+
+#photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+  align-self: center;
+
+}
+
+#keplascroll {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: sticky;
+}
+
+
